@@ -61,7 +61,8 @@ const welcomeSections=[
 ];
 const welcomeVideos=[['Waste management','FPzxf56-xSw'],['Smart lock','kAQXy8bEUz8'],['Washer dryer','NOLgxKUOz-g'],['Sage Combi Oven','HuSWQGZXEAM'],['Air fryer','_NewaZShLaQ'],['Monsieur Cuisine Smart','d9QLKh7HD7c'],['Opening & closing hot tub','nwfnoGXxjs8'],['Changing hot-tub temperature','uQJCCXdx4P8'],['Superking blinds','E8IB7nzQrbA']];
 function shell(content) {
-  return `<header><a class="brand" href="/the-house"><img src="/images/c83a1e4df304aeb0.jpg" alt="Country Beach Escape logo"><span>Country Beach Escape</span></a><button class="menu" aria-label="Toggle menu">☰</button><nav>${nav.map(([href,label])=>`<a href="${href}">${label}</a>`).join('')}</nav></header><main>${content}</main><footer>Gated Community Country Beach Escape</footer>`;
+  const isActive = href => href === '/the-house' ? ['/', '/the-house'].includes(location.pathname) : location.pathname === href || location.pathname.startsWith(`${href}/`);
+  return `<header><a class="brand" href="/the-house"><img src="/images/c83a1e4df304aeb0.jpg" alt="Country Beach Escape logo"><span>Country Beach Escape</span></a><button class="menu" aria-label="Toggle menu">☰</button><nav>${nav.map(([href,label])=>`<a href="${href}"${isActive(href) ? ' class="nav-active" aria-current="page"' : ''}>${label}</a>`).join('')}</nav></header><main>${content}</main><footer>Gated Community Country Beach Escape</footer>`;
 }
 const button = (label, href=booking) => `<a class="button" href="${href}"${href.startsWith('http') ? ' target="_blank" rel="noreferrer"' : ''}>${label}</a>`;
 function home(){return `
