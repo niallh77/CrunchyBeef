@@ -20,8 +20,10 @@ const galleryGroups=[
  ['Bedrooms',['/images/09142483c27a39bc.jpg','/images/a14ef38e2543acf8.jpg','/images/62341e0a238e43d7.jpg','/images/a912749d9e31f8a1.jpg','/images/bedroom-black-headboard.jpg','/images/bedroom-travel-cot.jpg','/images/79e8bd38d79416b7.jpg','/images/247cb43e45caf498.jpg']],
  ['Kitchen & dining',['/images/4b2e26ed0601c129.jpg','/images/4e9c9605cc5e158e.jpg','/images/53e606b5cfcf1d53.jpg','/images/607c07502315b772.jpg']],
  ['Lounge & living spaces',['/images/3b2dd2be9844156a.jpg','/images/49295d2e5317b979.jpg','/images/604041561d3a671a.jpg','/images/98d17787cc6baa61.jpg','/images/c4b7d93140dc7863.jpg']],
- ['Outdoor spaces',['/images/1028c6f9564fc994.jpg','/images/251b109e16fe352c.jpg','/images/2688afe62ba95f36.jpg','/images/5fd1c5736ef388b6.jpg','/images/60bcc5b4d13f7c93.jpg','/images/c6e83e94cc557c9f.jpg','/images/c842efc1294adfec.jpg','/images/cd4a42d7864dc40f.jpg']],
- ['Bathrooms & house details',['/images/0b501f4d0c4a9289.jpg','/images/95551dd15188fbff.jpg','/images/b74a510d875ad02f.jpg','/images/c37e5f0d81997eea.jpg']]
+ ['Outdoor spaces',['/images/1028c6f9564fc994.jpg','/images/251b109e16fe352c.jpg','/images/2688afe62ba95f36.jpg','/images/5fd1c5736ef388b6.jpg','/images/60bcc5b4d13f7c93.jpg','/images/c6e83e94cc557c9f.jpg','/images/c842efc1294adfec.jpg','/images/cd4a42d7864dc40f.jpg','/images/pet-friendly-garden.png']],
+ ['Bathrooms & house details',['/images/0b501f4d0c4a9289.jpg','/images/95551dd15188fbff.jpg','/images/b74a510d875ad02f.jpg','/images/c37e5f0d81997eea.jpg']],
+ ['Floor plans',['/images/floor-plan-ground-floor.png','/images/floor-plan-first-floor.png']],
+ ['Nearby',['/images/nearby-ice-cream-kiosk.jpg','/images/nearby-market-stall.png','/images/nearby-craft-market.png','/images/nearby-music.png','/images/nearby-samhradh-market.png','/images/nearby-rocky-coast.jpg','/images/nearby-beach-walk.jpg','/images/nearby-forest-walk.jpg','/images/nearby-ballymoney-beach.webp','/images/nearby-coffee.png','/images/nearby-outdoor-dining.png','/images/nearby-orphan-girl-farmers-market.png']]
 ];
 const todoSections={
  'local-area':['Local Area','Explore Ballymoney, Gorey and the Wexford coastline.'],
