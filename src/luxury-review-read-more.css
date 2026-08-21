@@ -1,0 +1,4 @@
+/* Keep longer guest reviews tidy until the visitor chooses to expand them. */
+.luxury-review-card blockquote.is-collapsed{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:4}
+.luxury-review-read-more{align-self:flex-start;margin-top:.8rem;padding:0;border:0;background:transparent;color:#65736a;font:500 .92rem/1.2 Arial,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:.2em}
+.luxury-review-read-more:hover{color:#173f3d}

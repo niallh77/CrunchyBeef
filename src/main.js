@@ -5,10 +5,16 @@ import './luxury-home-inspired.css';
 import './luxury-sticky-nav.css';
 import './luxury-centred-logo.css';
 import './luxury-review-carousel.css';
+import './luxury-verified-reviews.js';
 import './luxury-pet-tile.css';
 import './luxury-pet-tile.js';
 import './luxury-superhost-badge.css';
 import './luxury-superhost-badge.js';
+import './luxury-review-layout.css';
+import './luxury-review-layout.js';
+import './luxury-review-carousel-cycle.js';
+import './luxury-review-read-more.css';
+import './luxury-review-read-more.js';
 import editableContent from './content.json';
 
 const booking = '/contact-us#contact-form';

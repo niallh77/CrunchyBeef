@@ -1,0 +1,26 @@
+/* Review carousel layout inspired by a classic trust-and-testimonials panel. */
+.luxury-guest-reviews{position:relative;padding:5.5rem clamp(1.5rem,5vw,5rem)}
+.luxury-review-layout{display:grid;grid-template-columns:285px minmax(0,1fr);gap:3.25rem;align-items:center;max-width:1500px;margin:0 auto}
+.luxury-review-summary{display:flex;flex-direction:column;align-items:center;text-align:center}
+.luxury-review-score{width:100%;padding:0;border:0}
+.luxury-review-score strong{color:#101513;font:700 clamp(1.7rem,2.4vw,2.35rem)/1.05 Arial,sans-serif;letter-spacing:.01em;text-transform:uppercase}
+.luxury-review-score .stars{font-size:2.55rem;letter-spacing:.04em;margin:.55rem 0;color:#edb21c}
+.luxury-review-score p{color:#141a17;font-size:1rem;font-weight:600}
+.luxury-google-wordmark{display:block;margin-top:.85rem;font:700 2.2rem/1 Arial,sans-serif;letter-spacing:-.09em;background:linear-gradient(90deg,#4285f4 0 24%,#ea4335 24% 44%,#fbbc05 44% 65%,#4285f4 65% 81%,#34a853 81%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.luxury-review-summary .luxury-superhost-badge{margin-top:1.55rem}
+.luxury-review-carousel-wrap{width:100%;max-width:none;margin:0}
+.luxury-review-carousel{gap:1.4rem;padding:0 1px 1px}
+.luxury-review-card{flex:0 0 calc((100% - 2.8rem)/3);min-width:0;min-height:300px;border-radius:15px;padding:1.55rem 1.7rem;box-shadow:none}
+.luxury-review-card__top{position:relative;padding-right:2rem}
+.luxury-review-card__source{position:absolute;right:0;top:.1rem;font-size:0}
+.luxury-review-card__source img{width:28px;height:28px}
+.luxury-review-card__name{font-size:1.1rem;font-weight:500;color:#111}
+.luxury-review-card__stars{margin:1.15rem 0 .75rem;font-size:1.55rem}
+.luxury-review-card blockquote{font-size:1.05rem;line-height:1.55;color:#141b18}
+.luxury-review-card time{font-size:.82rem;color:#758078}
+.luxury-review-controls{position:absolute;left:calc(285px + clamp(1.5rem,5vw,5rem) + 1.25rem);right:clamp(1.5rem,5vw,5rem);top:50%;z-index:2;display:flex;justify-content:space-between;transform:translateY(-50%);max-width:none;margin:0;padding:0;pointer-events:none}
+.luxury-review-controls button{width:3rem;height:3rem;border-color:#d4d8d2;background:#fff;color:#516158;pointer-events:auto;box-shadow:0 2px 8px rgba(25,49,40,.08)}
+.luxury-review-controls button:first-child{transform:translateX(-1.5rem)}
+.luxury-review-controls button:last-child{transform:translateX(1.5rem)}
+@media(max-width:1050px){.luxury-review-layout{grid-template-columns:220px minmax(0,1fr);gap:2rem}.luxury-review-card{flex-basis:calc((100% - 1.4rem)/2)}.luxury-review-controls{left:calc(220px + clamp(1.5rem,5vw,5rem) + .75rem)}}
+@media(max-width:800px){.luxury-guest-reviews{padding:4.5rem 1.5rem}.luxury-review-layout{grid-template-columns:1fr;gap:2.5rem}.luxury-review-summary{padding-bottom:0}.luxury-review-card{flex-basis:calc(100vw - 4.5rem)}.luxury-review-controls{position:static;transform:none;justify-content:center;margin-top:1.25rem}.luxury-review-controls button{transform:none!important}.luxury-google-wordmark{font-size:2rem}}
