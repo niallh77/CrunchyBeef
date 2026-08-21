@@ -1,0 +1,9 @@
+/* Airbnb Superhost trust marker beside the guest reviews. */
+.luxury-guest-reviews__intro{align-items:center}
+.luxury-superhost-badge{display:flex;align-items:center;gap:.8rem;width:max-content;max-width:100%;margin-top:1.1rem;padding:.7rem .85rem;border:1px solid #d7d2c6;border-radius:4px;background:#fff;color:#243d36!important;text-decoration:none;box-shadow:0 8px 20px rgba(27,50,44,.08)}
+.luxury-superhost-badge:hover{border-color:#ff5a5f;transform:translateY(-1px)}
+.luxury-superhost-badge img{width:27px;height:27px}
+.luxury-superhost-badge span{display:grid;gap:.12rem;text-align:left}
+.luxury-superhost-badge strong{font-size:.78rem;letter-spacing:.035em}
+.luxury-superhost-badge small{font-size:.67rem;color:#6b776e}
+.luxury-superhost-badge b{margin-left:.25rem;color:#ff5a5f;font-size:.95rem}

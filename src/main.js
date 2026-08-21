@@ -5,6 +5,10 @@ import './luxury-home-inspired.css';
 import './luxury-sticky-nav.css';
 import './luxury-centred-logo.css';
 import './luxury-review-carousel.css';
+import './luxury-pet-tile.css';
+import './luxury-pet-tile.js';
+import './luxury-superhost-badge.css';
+import './luxury-superhost-badge.js';
 import editableContent from './content.json';
 
 const booking = '/contact-us#contact-form';
