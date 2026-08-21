@@ -1,0 +1,10 @@
+/* Centred badge logo for the Luxury preview navigation. */
+.luxury-site .luxury-header{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto;align-items:center;gap:1rem;min-height:92px;padding:0 clamp(1rem,3vw,3.25rem)}
+.luxury-site .luxury-brand{display:none}
+.luxury-site .luxury-nav{display:flex;gap:clamp(.7rem,1.5vw,1.6rem);align-items:center}
+.luxury-site .luxury-nav--right{justify-content:flex-end}
+.luxury-centred-logo{display:block;position:relative;z-index:1;width:128px;height:106px;margin:-7px 1rem -8px}
+.luxury-centred-logo img{display:block;width:100%;height:100%;object-fit:contain}
+.luxury-site .luxury-book{white-space:nowrap}
+@media(max-width:1050px){.luxury-site .luxury-header{grid-template-columns:1fr auto 1fr;padding:0 1.25rem}.luxury-site .luxury-nav{gap:.7rem;font-size:.7rem}.luxury-site .luxury-book{display:none}.luxury-centred-logo{width:110px;height:90px;margin:-4px .25rem}}
+@media(max-width:720px){.luxury-site .luxury-header{grid-template-columns:1fr auto;min-height:74px}.luxury-site .luxury-nav--left{display:none}.luxury-site .luxury-nav--right{justify-content:flex-end}.luxury-site .luxury-nav--right a:not(:last-child){display:none}.luxury-centred-logo{width:86px;height:70px;justify-self:start;margin:0}.luxury-site .luxury-nav{font-size:.72rem}}

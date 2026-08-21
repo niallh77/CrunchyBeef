@@ -1,0 +1,2 @@
+/* Keep the Luxury preview navigation available while exploring long pages. */
+.luxury-site .luxury-header{position:sticky;top:0;z-index:100;background:rgba(251,250,246,.96);box-shadow:0 1px 0 rgba(23,64,61,.1);backdrop-filter:blur(12px)}
