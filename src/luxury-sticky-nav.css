@@ -1,3 +1,3 @@
 /* Keep the Luxury preview navigation available while exploring long pages. */
-.luxury-site .luxury-header{position:sticky;top:0;z-index:100;background:#173f3d;box-shadow:0 1px 0 rgba(0,0,0,.18);backdrop-filter:blur(12px)}
+.luxury-site .luxury-header{position:sticky;top:0;z-index:100;background:#17403d!important;box-shadow:0 1px 0 rgba(0,0,0,.18);backdrop-filter:blur(12px)}
 .luxury-site .luxury-header .luxury-nav a,.luxury-site .luxury-header .luxury-book{color:#fff}
