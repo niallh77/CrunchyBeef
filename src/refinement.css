@@ -126,3 +126,12 @@ header{height:68px;padding:0 max(26px,calc((100% - 1240px)/2));gap:25px;box-shad
   .welcome-accordion-content p{font-size:16px;line-height:1.65;margin-bottom:14px}
   .welcome-accordion-content p:last-child{margin-bottom:0}
 }
+
+/* Show the selected guide before the topic navigation on phones. */
+@media(max-width:780px){
+  .welcome-detail,.luxury-main .welcome-detail{display:flex;flex-direction:column;gap:0}
+  .welcome-detail>.welcome-detail-sidebar{display:contents}
+  .welcome-detail-heading{order:0;width:100%}
+  .welcome-detail>.welcome-detail-content{order:1;width:100%;min-width:0;margin-top:0;overflow-wrap:anywhere}
+  .welcome-detail .welcome-side-nav{position:static;inset:auto;order:2;width:100%;margin-top:32px;padding-top:24px;border-top:1px solid #667269}
+}
