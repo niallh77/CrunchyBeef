@@ -1,0 +1,23 @@
+.todo-mobile-guides{display:none}
+@media(max-width:900px){
+  .luxury-main .todo-detail{display:block}
+  .luxury-main .todo-detail-sidebar{display:block;position:static}
+  .luxury-main .todo-side-nav{display:none}
+  .luxury-main .todo-mobile-guides{display:grid;gap:10px;margin-top:28px}
+  .luxury-main .todo-mobile-guides-label{margin:0 0 8px;color:#c5a36c;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+  .luxury-main .todo-mobile-guide{min-width:0;padding:0;border:1px solid #3d453f;border-radius:10px;background:#1b211e;overflow:hidden}
+  .luxury-main .todo-mobile-guide[open]{border-color:#b99964}
+  .luxury-main .todo-mobile-guide summary{display:flex;align-items:center;gap:14px;min-height:74px;padding:12px 15px;color:#eee8dc;list-style:none;cursor:pointer;font:400 clamp(16px,4vw,22px)/1.25 Georgia,serif}
+  .luxury-main .todo-mobile-guide summary::-webkit-details-marker{display:none}
+  .luxury-main .todo-mobile-guide summary::marker{content:''}
+  .luxury-main .todo-mobile-guide summary img{flex:0 0 60px;width:60px;height:60px;border-radius:6px;object-fit:cover}
+  .luxury-main .todo-mobile-guide summary span:nth-child(2){flex:1}
+  .luxury-main .todo-mobile-guide-indicator{color:#c5a36c;font:700 24px/1 Arial,sans-serif}
+  .luxury-main .todo-mobile-guide[open] .todo-mobile-guide-indicator{font-size:0}
+  .luxury-main .todo-mobile-guide[open] .todo-mobile-guide-indicator::after{content:'−';font-size:24px}
+  .luxury-main .todo-mobile-guide-panel{padding:6px 18px 20px;border-top:1px solid #3d453f}
+  .luxury-main .todo-mobile-guide-panel p{margin:12px 0;color:#c5c9c1;font-size:16px;line-height:1.65}
+  .luxury-main .todo-mobile-guide-panel>a{display:inline-block;margin-top:8px;color:#c5a36c;font-weight:700}
+  .luxury-main .todo-mobile-guide-panel .todo-detail-content{width:100%;max-width:none;margin:0}
+  .luxury-main .todo-mobile-guide summary:focus-visible{outline:2px solid #e9c98d;outline-offset:-3px}
+}

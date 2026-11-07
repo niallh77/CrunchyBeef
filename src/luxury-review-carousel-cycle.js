@@ -13,7 +13,8 @@ queueMicrotask(() => {
     const atEnd = carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 4;
     carousel.scrollTo({ left: atEnd ? 0 : carousel.scrollLeft + amount, behavior: 'smooth' });
   };
-  const start = () => { window.clearInterval(timer); timer = window.setInterval(advance, 6000); };
+  // Advance every 4.286 seconds — 40% faster than the previous 6-second pace.
+  const start = () => { window.clearInterval(timer); timer = window.setInterval(advance, 4286); };
   const stop = () => window.clearInterval(timer);
 
   start();

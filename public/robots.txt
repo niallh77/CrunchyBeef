@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /editor
+Disallow: /housekeeping
+Disallow: /welcome
+Disallow: /instructionvideos
+Disallow: /design-preview
+Disallow: /luxury/review
+Disallow: /old
+
+Sitemap: https://countrybeachescape.ie/sitemap.xml

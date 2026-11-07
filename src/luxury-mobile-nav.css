@@ -1,0 +1,12 @@
+.luxury-site .luxury-mobile-menu-button,.luxury-site .luxury-mobile-navigation{display:none}
+@media(max-width:900px){
+  .luxury-site .luxury-header{grid-template-columns:minmax(0,1fr) auto;gap:12px;min-height:96px;padding:0 18px!important}
+  .luxury-site .luxury-centred-logo{grid-column:1;justify-self:start;width:112px;height:92px;margin:0}
+  .luxury-site .luxury-mobile-menu-button{grid-column:2;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 12px;border:1px solid #b99964;background:transparent;color:#f1eee5;font:700 12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+  .luxury-mobile-menu-icon{display:grid;gap:4px;width:19px}
+  .luxury-mobile-menu-icon span{display:block;height:2px;background:currentColor}
+  .luxury-site .luxury-mobile-navigation:not([hidden]){position:absolute;top:100%;right:0;left:0;display:flex;flex-direction:column;max-height:calc(100vh - 96px);overflow:auto;padding:8px 18px 18px;border-top:1px solid #52645b;background:#17403d;box-shadow:0 16px 24px #0005}
+  .luxury-site .luxury-mobile-navigation a{display:block;padding:15px 8px;border-bottom:1px solid #ffffff25;color:#f1eee5;text-decoration:none;font-size:15px;font-weight:700;letter-spacing:.04em}
+  .luxury-site .luxury-mobile-navigation a.current{color:#e9c98d}
+  .luxury-site .luxury-mobile-menu-button:focus-visible,.luxury-site .luxury-mobile-navigation a:focus-visible{outline:2px solid #e9c98d;outline-offset:3px}
+}
