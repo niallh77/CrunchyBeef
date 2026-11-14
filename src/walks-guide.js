@@ -1,7 +1,7 @@
 export const walksGuide = `
   <h2>Lovely walks</h2>
   <p>The <a href="https://wexfordwalkingtrail.ie/trails-maps/">Wexford Walking Trail maps</a> cover hill, forest and beach walks. It is best to drive to the starting points.</p>
-  <figure class="todo-detail-feature">
+  <figure class="todo-detail-feature todo-detail-feature--wide">
     <img src="/images/todo/beach-access-2.webp" alt="Tara Hill trail map and photos of the Courtown-Kiltennel, Kiltennel Wildlife Reserve and Seafield Forest Walk entrances" width="1056" height="517" style="height:auto">
     <figcaption>Local walking routes and access points</figcaption>
   </figure>
@@ -15,7 +15,7 @@ export const walksGuide = `
 
   <h2>Local beach access</h2>
   <p>There are at least four beaches near the house, around five minutes away by car. The entrances can be easy to miss, so use the access photos and map links below.</p>
-  <figure class="todo-detail-feature">
+  <figure class="todo-detail-feature todo-detail-feature--wide">
     <img src="/images/todo/beach-access-1.webp" alt="Roadside access photos for Ballymoney Beach, Seafield Bay Beach and Kiltennel Beach" width="1043" height="605" style="height:auto">
     <figcaption>Beach access points from north to south</figcaption>
   </figure>
